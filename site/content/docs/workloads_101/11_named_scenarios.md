@@ -28,8 +28,8 @@ A couple of other forms are supported in the YAML, for terseness:
 scenarios:
   oneliner: run driver=diag cycles=10
   mapform:
-    part1: run driver=diag cycles=10 alias=part2
-    part2: run driver=diag cycles=20 alias=part2
+    part1: run driver=diag cycles=10 alias=part1
+    part2: run driver=diag cycles=10..20 alias=part2
 ```
 
 These forms simply provide finesse for common editing habits, but they are automatically read
