@@ -296,7 +296,7 @@ statements:
     #     freeparam1: 'freeparamvalue1'
     #   },
     #   tags: {
-    #     tag2: 'tagvalue2'
+    #     type: 'preload'
     #   }
     #  }
 
@@ -309,7 +309,7 @@ statements:
       stmt: fifth statement body
       freeparam2: freeparamvalue2
       tags:
-        tag2: tagvalue2
+        type: preload
 
   # read as:
   # {
@@ -319,7 +319,7 @@ statements:
   #      freeparam2: 'freeparamvalue2'
   #    },
   #    tags: {
-  #      tag2: 'tagvalue2'
+  #      type: 'preload'
   #    }
   # }
 
