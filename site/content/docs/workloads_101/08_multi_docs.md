@@ -16,7 +16,7 @@ This offers an additional convenience when configuring activities.
 
 ## Multi-Docs Example
 
-If you want to parameterize or tag some a set of operations with their own bindings, params, or
+If you want to parameterize or tag a set of operations with their own bindings, params, or
 tags, but alongside another set of uniquely configured statements, you need only put them in
 separate logical documents, separated by a triple-dash.
 
