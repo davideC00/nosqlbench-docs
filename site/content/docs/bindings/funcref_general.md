@@ -362,7 +362,7 @@ Return a value within a range, pseudo-randomly, using interval semantics, where 
 
 ## HashRange
 
-Return a value within a range, pseudo-randomly. This is equivalent to returning a value with in range between 0 and some maximum value, but with a minimum value added. You can specify hash ranges as small as a single-element range, like (5,5), or as wide as the relevant data type allows.
+Return a value within a range, pseudo-randomly. This is equivalent to returning a value within a range between 0 and some maximum value, but with a minimum value added. You can specify hash ranges as small as a single-element range, like (5,5), or as wide as the relevant data type allows.
 
 - int -> HashRange(int: width) -> int
 
